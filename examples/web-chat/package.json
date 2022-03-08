@@ -5,9 +5,12 @@
   "homepage": "/examples/web-chat",
   "dependencies": {
     "@livechat/ui-kit": "^0.5.0-20",
+    "browserify-zlib": "^0.2.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.0",
-    "js-waku": "file:../../build/main",
+    "http-browserify": "^1.7.0",
+    "https-browserify": "^1.0.0",
+    "js-waku": "^0.17.0",
     "process": "^0.11.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
